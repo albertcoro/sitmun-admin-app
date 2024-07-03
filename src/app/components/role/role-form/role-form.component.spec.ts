@@ -3,17 +3,14 @@ import { ComponentFixture, TestBed, getTestBed } from '@angular/core/testing';
 import { RoleFormComponent } from './role-form.component';
 import { RouterModule } from '@angular/router';
 import { RoleService, UserService, CodeListService, CartographyGroupService, TerritoryService, 
-  CartographyService, TaskService, UserConfigurationService, ApplicationService,ResourceService,ExternalService } from 'dist/sitmun-frontend-core/';
+  CartographyService, TaskService, UserConfigurationService, ApplicationService,ResourceService,ExternalService } from '../../../frontend-core/src/lib/public_api';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
-import { SitmunFrontendGuiModule } from 'dist/sitmun-frontend-gui/';
+import { SitmunFrontendGuiModule } from '../../../frontend-gui/src/lib/public_api';
 import { ExternalConfigurationService } from 'src/app/ExternalConfigurationService';
 import { RouterTestingModule } from '@angular/router/testing';
 import { MaterialModule } from '../../../material-module';
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
 import { MatIconTestingModule } from '@angular/material/icon/testing';
-import { Role } from '@sitmun/frontend-core';
-import { Observable } from 'rxjs';
-import { Injector } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
